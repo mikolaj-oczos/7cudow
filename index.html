@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mikołaj Oczoś">
+    <meta name="keywords" content="7 cudów świata, starożytność, zabytki, historia, architektura, piramidy">
+    <meta name="description" content="Strona przedstawiająca 7 cudów świata starożytnego wraz z opisami, galerią i ciekawostkami.">
+    <title>7 Cudów Świata Starożytnego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>7 Cudów Świata Starożytnego</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#opisy">Opisy</a></li>
+                <li><a href="#ankieta">Ankieta</a></li>
+                <li><a href="#tabela">Tabela</a></li>
+                <li><a href="#lista">Lista i Cechy</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria">
+            <h2>Galeria Zdjęć</h2>
+            <p>Poniżej znajduje się galeria przedstawiająca wizualizacje siedmiu cudów starożytnego świata.</p>
+
+            <div class="css-gallery">
+                <input type="radio" name="g" id="g1" checked>
+                <input type="radio" name="g" id="g2">
+                <input type="radio" name="g" id="g3">
+                <input type="radio" name="g" id="g4">
+                <input type="radio" name="g" id="g5">
+                <input type="radio" name="g" id="g6">
+                <input type="radio" name="g" id="g7">
+
+                <div class="main">
+                    <figure class="slide s1">
+                        <img src="src/cheops.jpg" alt="Piramida Cheopsa">
+                    </figure>
+                    <figure class="slide s2">
+                        <img src="src/ogrody.jpg" alt="Wiszące Ogrody Semiramidy">
+                    </figure>
+                    <figure class="slide s3">
+                        <img src="src/zeus.jpg" alt="Posąg Zeusa w Olimpii">
+                    </figure>
+                    <figure class="slide s4">
+                        <img src="src/atermis.jpg" alt="Świątynia Artemidy w Efezie">
+                    </figure>
+                    <figure class="slide s5">
+                        <img src="src/maulo.jpg" alt="Mauzoleum w Halikarnasie">
+                    </figure>
+                    <figure class="slide s6">
+                        <img src="src/kolos.jpg" alt="Kolos Rodyjski">
+                    </figure>
+                    <figure class="slide s7">
+                        <img src="src/latarka.jpg" alt="Latarnia na Faros">
+                    </figure>
+                </div>
+
+                <div class="caption-wrapper">
+                    <div class="caption c1">Piramida Cheopsa w Gizie - grobowiec faraona, najstarszy z cudów.</div>
+                    <div class="caption c2">Wiszące Ogrody Babilonu - tarasy i system nawadniania (legendarnie).</div>
+                    <div class="caption c3">Posąg Zeusa w Olimpii, wykonany przez Fidiasza - monumentalna rzeźba.</div>
+                    <div class="caption c4">Świątynia Artemidy - wielka hellenistyczna świątynia w Efezie.</div>
+                    <div class="caption c5">Mauzoleum w Halikarnasie - grobowiec Mauzolosa.</div>
+                    <div class="caption c6">Kolos Rodyjski - wielki posąg Heliosa.</div>
+                    <div class="caption c7">Latarnia na Faros - słynna latarnia morska w Aleksandrii.</div>
+                </div>
+
+                <div class="thumbs">
+                    <label for="g1"><img src="src/cheops.jpg" alt="cheops"></label>
+                    <label for="g2"><img src="src/ogrody.jpg" alt="ogrody"></label>
+                    <label for="g3"><img src="src/zeus.jpg" alt="zeus"></label>
+                    <label for="g4"><img src="src/atermis.jpg" alt="atermis"></label>
+                    <label for="g5"><img src="src/maulo.jpg" alt="maulo"></label>
+                    <label for="g6"><img src="src/kolos.jpg" alt="kolos"></label>
+                    <label for="g7"><img src="src/latarka.jpg" alt="latarka"></label>
+                </div>
+            </div>
+        </section>
+
+        <section id="opisy">
+            <h2>Szczegółowe Opisy Cudów</h2>           
+            <article>
+                <h3>1. Piramida Cheopsa (Egipt)</h3>
+                <p>Najstarszy i jedyny z siedmiu cudów świata, który przetrwał do czasów współczesnych. Wzniesiona ok. 2560 r. p.n.e. jako grobowiec dla faraona Cheopsa. Przez ponad 3800 lat była najwyższą budowlą stworzoną przez człowieka (pierwotnie 146,6 m).</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Piramida_Cheopsa" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+
+            <article>
+                <h3>2. Wiszące Ogrody Semiramidy (Babilon)</h3>
+                <p>Cud inżynierii hydrotechnicznej, zbudowany prawdopodobnie przez króla Nabuchodonozora II dla jego żony Amytis, która tęskniła za zielenią ojczystych stron. Składały się z tarasów nawadnianych skomplikowanym systemem pomp. Do dziś nie ma pewności, czy istniały naprawdę, czy są tylko legendą.</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Wiszące_ogrody_Semiramidy" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+
+            <article>
+                <h3>3. Posąg Zeusa w Olimpii (Grecja)</h3>
+                <p>Gigantyczna rzeźba autorstwa Fidiasza, wykonana techniką chryzelefantynową (złoto i kość słoniowa na drewnianym stelażu). Zeus siedział na tronie, a posąg był tak wielki (ok. 13 m), że gdyby bóg wstał, zburzyłby dach świątyni.</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Posąg_Zeusa_w_Olimpii" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+
+            <article>
+                <h3>4. Świątynia Artemidy w Efezie (Turcja)</h3>
+                <p>Monumentalna świątynia poświęcona greckiej bogini łowów. Była największą budowlą świata hellenistycznego, ozdobioną lasem kolumn (było ich ponad 120). Została spalona przez Herostratesa, który chciał w ten sposób zyskać nieśmiertelną sławę.</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Świątynia_Artemidy_w_Efezie" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+
+            <article>
+                <h3>5. Mauzoleum w Halikarnasie (Turcja)</h3>
+                <p>Wielki grobowiec wzniesiony dla perskiego satrapy Mauzolosa. Budowla była tak wspaniała, że od imienia władcy słowo "mauzoleum" stało się synonimem każdego monumentalnego grobowca. Łączyła w sobie style greckie, egipskie i likijskie.</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Mauzoleum_w_Halikarnasie" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+
+            <article>
+                <h3>6. Kolos Rodyjski (Grecja)</h3>
+                <p>Olbrzymi posąg boga słońca Heliosa, ustawiony u wejścia do portu na Rodos. Mierzył około 30-32 metrów wysokości. Stał zaledwie 54 lata – runął podczas trzęsienia ziemi, łamiąc się w kolanach. Przez wieki jego szczątki leżały na ziemi, budząc podziw podróżnych.</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Kolos_Rodyjski" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+
+            <article>
+                <h3>7. Latarnia morska na Faros (Aleksandria, Egipt)</h3>
+                <p>Najwyższa latarnia morska w historii (ok. 120 m), zbudowana na wyspie Faros. Jej światło, uzyskiwane z wielkiego paleniska i systemu luster, było widoczne z odległości kilkudziesięciu kilometrów. Zniszczona przez serię trzęsień ziemi.</p>
+                <p><a href="https://pl.wikipedia.org/wiki/Latarnia_morska_na_Faros" target="_blank" rel="noopener">Czytaj więcej na Wikipedii</a></p>
+            </article>
+        </section>
+        <section id="ankieta">
+            <h2>Ankieta - Twój Głos</h2>
+            <form action="mailto:mikolaj.oczos@tm1.edu.pl" method="post" enctype="text/plain" class="survey-form">
+                <fieldset>
+                    <legend>Wybierz swojego faworyta</legend>
+                    <label for="cud">Który cud świata robi na Tobie największe wrażenie?</label>
+                    <select id="cud" name="cud" required>
+                        <option value="">-- Wybierz z listy --</option>
+                        <option value="piramida">Piramida Cheopsa</option>
+                        <option value="ogrody">Wiszące Ogrody Semiramidy</option>
+                        <option value="zeus">Posąg Zeusa</option>
+                        <option value="artemida">Świątynia Artemidy</option>
+                        <option value="mauzoleum">Mauzoleum w Halikarnasie</option>
+                        <option value="kolos">Kolos Rodyjski</option>
+                        <option value="latarnia">Latarnia na Faros</option>
+                    </select>
+                    <p>Czy byłeś/aś kiedyś w jednym z państw, w których znajdują się te cuda?</p>
+                    <label><input type="radio" name="wizyta" value="tak"> Tak</label>
+                     <label><input type="radio" name="wizyta" value="nie" checked> Nie</label>
+                    <p>Co jest dla Ciebie najważniejsze w zabytkach?</p>
+                    <label><input type="checkbox" name="cechy" value="rozmiar"> Ogromny rozmiar</label>
+                    <label><input type="checkbox" name="cechy" value="historia"> Wiek i historia</label>
+                    <label><input type="checkbox" name="cechy" value="wyglad"> Piękno i estetyka</label>
+                    <label><input type="checkbox" name="cechy" value="tajemnica"> Tajemniczość</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>O Tobie</legend>
+                    <label for="imie">Imię:</label>
+                    <input id="imie" type="text" name="imie" placeholder="Wpisz imię">
+                    
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" placeholder="jan@przyklad.com">
+
+                        <label for="uwagi">Komentarz:</label>
+                        <textarea id="uwagi" name="uwagi" rows="3" placeholder="Napisz, dlaczego wybrałeś ten cud..."></textarea>
+                </fieldset>
+
+                <div class="form-actions">
+                    <button type="submit" onclick="alert('Dziękujemy za wypełnienie formularza!')">Wyślij ankietę</button>
+                    <button type="reset">Wyczyść</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="tabela">
+            <h2>Porównanie Siedmiu Cudów Świata</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Lokalizacja</th>
+                        <th>Data budowy (ok.)</th>
+                        <th>Losy budowli</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Piramida Cheopsa</td>
+                        <td>Giza, Egipt</td>
+                        <td>XXVI w. p.n.e.</td>
+                        <td><strong>Istnieje do dziś</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Wiszące Ogrody</td>
+                        <td>Babilon (Irak)</td>
+                        <td>VI w. p.n.e.</td>
+                        <td>Zniszczone przez trzęsienie ziemi (I w. p.n.e.)</td>
+                    </tr>
+                    <tr>
+                        <td>Posąg Zeusa</td>
+                        <td>Olimpia, Grecja</td>
+                        <td>V w. p.n.e. (430 r.)</td>
+                        <td>Spłonął w pożarze (V w. n.e.)</td>
+                    </tr>
+                    <tr>
+                        <td>Świątynia Artemidy</td>
+                        <td>Efez (Turcja)</td>
+                        <td>VI w. p.n.e.</td>
+                        <td>Zniszczona przez Gotów (III w. n.e.)</td>
+                    </tr>
+                    <tr>
+                        <td>Mauzoleum</td>
+                        <td>Halikarnas (Turcja)</td>
+                        <td>IV w. p.n.e. (350 r.)</td>
+                        <td>Rozebrane przez krzyżowców (XV w.)</td>
+                    </tr>
+                    <tr>
+                        <td>Kolos Rodyjski</td>
+                        <td>Rodos, Grecja</td>
+                        <td>III w. p.n.e. (280 r.)</td>
+                        <td>Powalony przez trzęsienie ziemi (226 p.n.e.)</td>
+                    </tr>
+                    <tr>
+                        <td>Latarnia na Faros</td>
+                        <td>Aleksandria, Egipt</td>
+                        <td>III w. p.n.e. (280 r.)</td>
+                        <td>Zniszczona przez trzęsienie ziemi (XIV w.)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="lista">
+            <h2>Listy i Ciekawostki</h2>
+            
+            <div class="list-container">
+                <h3>Dlaczego lista zawiera tylko 7 pozycji?</h3>
+                <p>Liczba 7 była dla starożytnych Greków symbolem perfekcji i kompletności. Odnosiła się również do ówcześnie znanych 5 planet oraz Słońca i Księżyca.</p>
+                
+                <h3>Cechy wyróżniające te budowle (Lista punktowana)</h3>
+                <ul>
+                    <li><strong>Monumentalizm:</strong> Każda z budowli przekraczała ludzką skalę i budziła respekt swoimi rozmiarami.</li>
+                    <li><strong>Kunszt inżynierski:</strong> Wymagały zastosowania nowatorskich rozwiązań (np. system luster w latarni, nawadnianie ogrodów).</li>
+                    <li><strong>Bogactwo materiałów:</strong> Używano najdroższych surowców: złota, kości słoniowej, marmuru, cedru.</li>
+                    <li><strong>Funkcja religijna lub władcza:</strong> Służyły bogom (Zeus, Artemida, Helios) lub chwale władców (Cheops, Mauzolos).</li>
+                    <li><strong>Lokalizacja:</strong> Wszystkie znajdowały się w basenie Morza Śródziemnego i na Bliskim Wschodzie (obszar znany Grekom).</li>
+                </ul>
+
+                <h3>Materiały użyte do budowy</h3>
+                <ul>
+                    <li>Wapień i granit (Piramidy)</li>
+                    <li>Cegła suszona i glazurowana (Ogrody Babilonu)</li>
+                    <li>Złoto i kość słoniowa (Posąg Zeusa)</li>
+                    <li>Marmur (Świątynia Artemidy, Mauzoleum)</li>
+                    <li>Płyty z brązu i żelazne wsporniki (Kolos Rodyjski)</li>
+                    <li>Biały kamień wapienny (Latarnia na Faros)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="media">
+            <h2>Multimedia</h2>
+            <p>Posłuchaj o historii starożytnej lub zobacz rekonstrukcję.</p>
+            <div class="media-content">
+                <video controls width="400">
+                    <source src="src/film.mp4" type="video/mp4">
+                    Twoja przeglądarka nie obsługuje elementu wideo.
+                </video>
+                <center><p>'7 CUDÓW ŚWIATA - Czym były budowle starożytnych?' Ten film opowie o historii starożytnych cudów.
+                <br>Źródło: YouTube kanał "Na Kartach Historii"</p></center>
+            </div>
+        </section>
+
+        <section id="mapa">
+            <h2>Lokalizacja Piramidy Cheopsa (Giza)</h2>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.793361864433!2d31.131681223930816!3d29.979239169490157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2spl!4v1700000000000!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Mikołaj Oczoś | Klasa 2ta</p>
+    </footer>
+    </body>
+    </html>
